@@ -1,0 +1,17 @@
+package com.java8.consumer;
+
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+import com.java8.function.Student;
+
+public class StudentTestUsingFuncPredicateConsumer {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+	
+
+}

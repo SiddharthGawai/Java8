@@ -1,0 +1,46 @@
+package com.java8.consumer;
+
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+import com.java8.function.Student;
+
+public class StudentTestUsingFuncPredicateConsumer {
+
+	public static void main(String[] args) 
+	{
+		Function<Student, String>f=s->{
+			int maarks = s.maarks;
+			String grade="";
+			if(maarks>=80)grade="A[Dictinction]";
+			else if(maarks>=60)grade="B[FirstClass]";
+			else if(maarks>=50)grade="C[SecondClass]";
+			else grade="E[Failed]";
+			
+			return grade;
+		};
+		
+		Predicate<Student> p=s->s.maarks>=60;
+		
+		Student[] s = {new Student("Siddharth",100),
+				new Student("Sunny",65),
+				new Student("Bunny",55),
+				new Student("Bunny",45),
+				new Student("Bunny",25),
+		};
+		
+		for(Student s1:s)
+		{
+			if(p.test(s1))
+			{
+			System.out.println("Student Name:"+s1.name);
+			System.out.println("Student Marks:"+s1.maarks);
+			System.out.println("Student Grade:"+f.apply(s1));
+			System.out.println();
+			}
+		}
+	}
+
+	}
+
+}

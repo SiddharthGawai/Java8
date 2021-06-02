@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.factdesign.Connection"/>
+<fullyQualifiedTypeName name="com.factdesign.MySql"/>
+<fullyQualifiedTypeName name="com.factdesign.Oracle"/>
+<fullyQualifiedTypeName name="com.factdesign.FactoryMethod"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.java8.predicate.Employee"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.java8.function.Student"/>
+<fullyQualifiedTypeName name="java.util.function.Predicate"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="com.java8.consumer.Studentt"/>
+<fullyQualifiedTypeName name="java.util.function.Function"/>
+</qualifiedTypeNameHistroy>

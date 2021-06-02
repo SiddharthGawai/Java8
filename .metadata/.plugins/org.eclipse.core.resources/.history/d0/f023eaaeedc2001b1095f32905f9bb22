@@ -1,0 +1,14 @@
+package com.java8.consumer;
+
+public class Student {
+	
+	public String name;
+	public int maarks;
+	
+	public Student(String name, int maarks) {
+		super();
+		this.name = name;
+		this.maarks = maarks;
+	}
+
+}
